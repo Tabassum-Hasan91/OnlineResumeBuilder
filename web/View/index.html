@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Registration Page</title>
+    <title>LoginPage</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.css" rel="stylesheet">
     <style type="text/css">
@@ -17,7 +17,7 @@
       background-attachment: fixed;
       background-position: center;
     }
-    @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa'); 
       body {
       background-color: transparent;
         padding-top: 50px; 
@@ -196,15 +196,14 @@ div.error {
           <ul class="nav navbar-nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">Video</a></li>
-            <li><a href="Codes.html">Codes</a></li> 
+            <li><a href="#">Codes</a></li> 
             <li><a href="#">Test</a></li>
             <li ><a href="#">Feedback</a></li>
-            <li><a href="#">About us</a></li> 
+            <li><a href="">About us</a></li> 
           </ul>
           <ul class="nav navbar-nav navbar-right">
-          <li ><a href="Admin.html"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
-            <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="LoginPage.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           </ul>
         </div>
       </div>
@@ -217,81 +216,35 @@ div.error {
           <div class="ctrlqAccent"></div>
           <div class="ctrlqFormContent">
 
-            <form action="register" method="post">  
+            <form action="PersonalInfo.jsp" method="get">  
 
               <div class="row header">
                 <div class="input-field col s12 navbar-collapse" align="center">
-                  <h4 style="font-weight: bolder;">Sign Up</h4>
-                  <p><center>Welcome to Programming</center> </p>
+                  <h4 style="font-weight: bolder;">Login Page </h4>
+                  <p><center>Enter the Details</center></p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="input-field col s12">
-                  <input id="name" name="name" pattern="[A-Za-z]{2,}" title="Two or more characters" type="text" class="validate" data-error="#e1" required>
-                  <label for="name">User Name</label>
+                  <input id="name" name="name"  title="Two or more characters" type="text"  required>
+                  <label for="name">UserName</label>
                   <div id="e1"></div>
                 </div>
               </div>
 
-              <div class="row">
+          <div class="row">
                 <div class="input-field col s12">
-                  <input id="email" name="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,3}$" title="Invalid Email Address" type="text" class="validate" data-error="#e2" required>
-                  <label for="email">Your Email</label>
+                  <input id="password" name="password"  title="Invalid Password" type="text" required>
+                  <label for="password">Password</label>
                   <div id="e2"></div>
                 </div>
               </div>
 
-               <div class="row">
-                <div class="input-field col s12">
-                  <input id="password" name="password" pattern="[A-Za-z]{2,}" title="Invalid Password" type="text" class="validate" data-error="#e3" required>
-                  <label for="email">Password</label>
-                  <div id="e3"></div>
-                </div>
-              </div>
-
-
-              <div class="row">
-                <div class="input-field col s12">
-                  <select id="country" name="country" class="validate" data-error="#e5" required>    
-                      <option value="India">India</option> 
-                      <option value="USA">USA</option>
-                      <option value="Austrialia">Australia</option>
-                  </select>
-                  <div id="e5"></div>
-                </div>
-              </div>
-
-               <div class="row">
-                <div class="input-field col s12">
-                  <input id="city" name="city" type="text" class="validate" data-error="#e6">
-                  <label for="city">city</label>
-                  <div id="e6"></div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="input-field col s12">
-                  <textarea pattern="[A-Za-z0-9.,_%]{2,}" title="One or more characters" id="address" name="address" class="materialize-textarea" data-error="#e7" required></textarea>
-                  <label for="address">Address</label>
-                  <div id="e7"></div>
-                </div>
-              </div>
-
-              <div class="row">
-                <p>Gender</p>
-                
-                  <input type="radio" name="gender" style="display:none" required/>
-                  
-                  <input type="radio" id="Male" name="gender" "/><label for="Male"> Male</label>
-                  <input type="radio" id="Female" name="gender"  /><label for="Female">Female</label>
-                  
-                </span>
-              </div>
-              
+             
               <div class="row">
                 <div class="input-field col m6 s12">
-                  <button type="reset" value="reset" class="waves-effect waves-light btn-large navbar-right">Reset</button>
+                  <button type="reset" value="reset" class="waves-effect waves-light btn-large navbar-right">Forgot Password</button>
                 </div>
                 <div class="input-field col m6 s12">
                   <button type="submit" class="waves-effect waves-light btn-large">Submit</button>

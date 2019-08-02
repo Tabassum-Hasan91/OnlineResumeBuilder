@@ -9,54 +9,120 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Academic Information</title>
     </head>
     <body>
+        
+        <h2>Welcome to online Resume Builder</h2>
+        <h4>Please Enter your Academic Information</h4>
+
         <form action="SaveAcademicInfo.jsp">
             <H4>Degree College Information</h4>
-            College name:
-            <input type="text" name="degClgName" >
+            
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">College name:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="degClgName" CLASS="form-control" >
+                </div>
+            </div>
+                  
             <br>
             
-            College course:
-            <input type="text" name="degClgCourse" placeholder="BCA">
+            
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">College course:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="degClgCourse" placeholder="BCA" class="form-control">
+                </div>
+            </div>
             <br>
                      
-            College City:
-            <input type="text" name="degClgCity">
+            
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">College City:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="degClgCity" class="form-control">
+                </div>
+            </div>
             <br>
             
-            College University:
-            <input type="text" name="degClgUniversity">
+            
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">College University:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="degClgUniversity" class="form-control">
+                </DIV>
+            </div>
             <br>
             
-            College passing year:
-            <input type="text" name="degClgYear">
+            
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">College passing year:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="degClgYear" class="form-control">
+                </div>
+            </div>
             <br>
             
             <H4>Junior College Information</h4>
-            College name:
-            <input type="text" name="jrClgName">
+            
+            
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">College name:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="jrClgName" class="form-control">
+                </div>
+            </div>
             <br>
           
-            College Stream:
+            
           
-            <input type="text" name="jrClgCourse" placeholder="Science">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">College Stream:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="jrClgCourse" placeholder="Science" class="form-control">
+                </div>
+            </div>
+                    
             <br>
             
-            College City:
-            <input type="text" name="jrClgCity">
+            
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">College City:</label>
+                <div class="col-sm-10">
+                        <input type="text" name="jrClgCity" class="form-control">
+                </div>
+            </div>
             <br>
             
-            College University:
-            <input type="text" name="jrClgUniversity">
+            
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">College University:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="jrClgUniversity" class="form-control">
+                </div>
+            </div>
             <br>
             
-            College passing year:
-            <input type="text" name="jrClgYear">
+            
+           <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">College passing year:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="jrClgYear" class="form-control">
+                </div>
+           </div>
             <br>
             
-            <input type="submit" value="Save and Proceed">
+            <div class="form-group">
+                     
+                <input type="submit" class="btn btn-default" value="Save and Proceed">
+             </div>
+
+            
         </form>
     </body>
 </html>

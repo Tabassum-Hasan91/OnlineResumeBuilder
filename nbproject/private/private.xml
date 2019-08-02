@@ -4,14 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/tabassum.hasan/Documents/NetBeansProjects/ThemeDemo/web/View/SaveAcademicInfo.jsp</file>
-            <file>file:/C:/Users/tabassum.hasan/Documents/NetBeansProjects/ThemeDemo/web/View/SavePersonalInfo.jsp</file>
             <file>file:/C:/Users/tabassum.hasan/Documents/NetBeansProjects/ThemeDemo/web/View/PersonalInfo.jsp</file>
+            <file>file:/C:/Users/tabassum.hasan/Documents/NetBeansProjects/ThemeDemo/web/View/Template.html</file>
             <file>file:/C:/Users/tabassum.hasan/Documents/NetBeansProjects/ThemeDemo/src/java/controller/AcademicController.java</file>
-            <file>file:/C:/Users/tabassum.hasan/Documents/NetBeansProjects/ThemeDemo/web/files/Themes/blue/blueResume.jsp</file>
-            <file>file:/C:/Users/tabassum.hasan/Documents/NetBeansProjects/ThemeDemo/src/java/dao/PersonalDao.java</file>
-            <file>file:/C:/Users/tabassum.hasan/Documents/NetBeansProjects/ThemeDemo/src/java/dao/AcademicDao.java</file>
-            <file>file:/C:/Users/tabassum.hasan/Documents/NetBeansProjects/ThemeDemo/web/View/Error.html</file>
-            <file>file:/C:/Users/tabassum.hasan/Documents/NetBeansProjects/ThemeDemo/src/java/controller/ForwardControl.java</file>
+            <file>file:/C:/Users/tabassum.hasan/Documents/NetBeansProjects/ThemeDemo/web/View/LoginPage.html</file>
         </group>
     </open-files>
 </project-private>

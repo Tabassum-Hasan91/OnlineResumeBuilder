@@ -20,75 +20,73 @@
             <h4>Please Enter your Personal Information</h4>
             <form action="SavePersonalInfo.jsp">
                 
-                <div class="form-group">
-                
+              <div class="form-group">
                 <label class="control-label col-sm-2" for="pwd">First Name:</label>
                 <div class="col-sm-10">    
-                <input type="text" class="form-control" name="fname" value="" autofocus="true" placeholder="Smith">
+                    <input type="text" class="form-control" name="fname" value="" autofocus="true" placeholder="Smith">
                 </div>
-                </div>
-                <br><br>
+              </div>
                 
-                 <div class="form-group">
+              <br><br>
                 
+              <div class="form-group">
                 <label class="control-label col-sm-2" for="pwd">Last Name:</label>
                 <div class="col-sm-10"> 
-                <input type="text" class="form-control" name="lname" value="" placeholder="Jones">
-                 </div>
-                 </div>
-                <br><br>
+                    <input type="text" class="form-control" name="lname" value="" placeholder="Jones">
+                </div>
+              </div>
                 
-                 <div class="form-group">
+              <br><br>
                 
+              <div class="form-group">
                 <label class="control-label col-sm-2" for="pwd">Current Designation:</label>
                 <div class="col-sm-10"> 
-                <input type="text" class="form-control" name="designation" value="" placeholder="Fresher">
-                 </div>
-                 </div>
-                <br><br>
+                    <input type="text" class="form-control" name="designation" value="" placeholder="Fresher">
+                </div>
+              </div>
                 
-                 <div class="form-group">
+              <br><br>
                 
+              <div class="form-group">
                 <label class="control-label col-sm-2" for="pwd">Address:</label>
-                <div class="col-sm-10"> 
-                <textarea name="address" class="form-control"></textarea>
-                 </div>
-                 </div>
+                   <div class="col-sm-10"> 
+                      <textarea name="address" class="form-control"></textarea>
+                   </div>
+              </div>
                 
                 <br><br>
-                 <div class="form-group">
-                
+                 
+              <div class="form-group">
                 <label class="control-label col-sm-2" for="pwd">Email:</label>
                 <div class="col-sm-10"> 
-                <input type="text" class="form-control" name="email" value="" placeholder="sample@example.com">
-                 </div>
-                 </div>
+                    <input type="text" class="form-control" name="email" value="" placeholder="sample@example.com">
+                </div>
+              </div>
                 
-                <br><br>
-                 <div class="form-group">
-               
-               <label class="control-label col-sm-2" for="pwd">Phone Number:</label>
+              <br><br>
+              
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Phone Number:</label>
                 <div class="col-sm-10"> 
-                <input type="text" class="form-control" name="phone" value="" placeholder="8449922330">
-                 </div>
-                 </div>
+                    <input type="text" class="form-control" name="phone" value="" placeholder="8449922330">
+                </div>
+              </div>
                 
                 <br><br>
-                 <div class="form-group">
+             <div class="form-group">
+               <label class="control-label col-sm-2" for="pwd">One Line Objective:</label>
+               <div class="col-sm-10"> 
+                    <textarea name="objective">Looking for a challenging job
+                    </textarea>
+               </div>
+             </div>
                 
-                <label class="control-label col-sm-2" for="pwd">One Line Objective:</label>
-                <div class="col-sm-10"> 
-                <textarea name="objective">Looking for a challenging job
-                </textarea>
-                 </div>
-                 </div>
+             <br><br>
                 
-                <br><br>
-                
-                 <div class="form-group">
+             <div class="form-group">
                      
                 <input type="submit" class="btn btn-default" value="Save and Proceed">
-                 </div>
+             </div>
             </form>
         </div>
     </body>
